@@ -1,0 +1,29 @@
+/*feuille de style pour mon premier formulaire HTML*/
+
+body {
+    background-color: #dff6f0;
+}
+
+/* ici les styles pour le formulaire */
+
+fieldset {
+    border: 1px solid orange;
+}
+
+legend {
+    background-color: sandybrown;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h1 {
+    color: #4d4545;
+    border: 3px solid #4d4545;
+}
+
+label {
+    color: blue;
+}
+.commentaire {
+    background-color: lavender;
+}
