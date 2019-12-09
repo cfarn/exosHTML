@@ -16,12 +16,12 @@ legend {
     }
 
 p {
-    color: #46b3e6;
+    color: #fafafa;
     font-size: 35px;
 }
 
 form {
-    background-color:rgb(173, 240, 236);
+    background-color: lightgrey;
     padding:10px;
     width:560px;
 }   

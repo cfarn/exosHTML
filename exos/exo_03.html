@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo 03</title>
+    <style>    
+            body {
+                background-color: papayawhip;
+            }
+        
+            abbr {
+                background-color: lightcoral;
+                color: royalblue;
+                font-weight: bolder;
+            }
+        
+            code {
+                background-color: #333;
+                color: white;
+                font-weight: bolder;
+            }
+    </style>   
+</head>
+    
+<body>
+    <h1>Exo 3</h1>
+
+    <ol>
+        <!--L'élément ABBR pour dire qu'il y a une abbrévation-->
+        <li><abbr>HTML </abbr>: HyperText Markup Langage
+            <ul>
+                <li>c'est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...</li>
+            </ul>
+        </li>
+
+        <li><abbr>CSS</abbr> : Cascading Style Sheet
+           <ul>
+                <li>C'est la mise en forme, le design, l'apparence (couleurs, tailles, positionnements sur la page)</li>
+           </ul>
+        </li>
+
+        <li>Terminologie
+            <ul>
+                <li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p)</li>
+                <li>Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un chevron fermant. L'ouverture d'une balise détermine le début d'un élément. Sa fermeture détermine sa fin. Le contenu qui est inséré entre une balise ouvrante et fermante représente le contenu de cet élément. Par exemple, un lien html sera encadré d'une balise A ouvrante et fermante. Il existe aussi des Balises auto-fermantes (aussi dites orphelines).</li>
+                <li>Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires sur un élément. Les Attributs les plus communs incluent l'Attribut ID (qui identifie un élément), l'Attribut CLASS (qui classifie un élément), l'Attribut HREF (qui contient un lien HyperText vers une ressource liée), l'Attribut SRC (qui spécifie la source d'un contenu qui peut être imbriqué. Les attributs sont définis au sein de la balise ouvrante après le nom de l'élément :
+                <br> 
+                <code>&lt;a ref="https://gihub.com/ma6tvacoder-Docs/partages">lien&lt;/a></code>
+                </li>
+           </ul>
+        </li>
+
+        <li>Structure
+            <ul>
+                <li>un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension_.html_.</li>
+                <li>tous les fichiers html ont une structure de base qui implique de déclarer les éléments suivants :
+                    <code>
+                        &lt;!DOCTYPE html><br>
+                        &lt;html><br>
+                        &lt;head><br>
+                        &lt;title>&lt;/title><br>
+                        &lt;/head><br>
+                        &lt;body><br>
+                        &lt;/body><br>
+                        &lt;/html><br>
+                    </code>
+                </li>
+                <li>!DOCTYPE html informe le navigateur web que le document est de type html et qu'il s'agit (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la précédente version avant le 5, cette balise s'écrivait <code>&lt;!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Framaset//EN"</code>
+                <code>"http://www.w3.org/TR/html4/frameset.dtd></code></li>
+                <li>à l'intérieur de l'élément <em>html</em> la balise <strong>head</strong> identifie le début du doc et inclut les métadonnées (infos sur la page). Le contenu à l'intérieur de la balise head n'est pas affiché par le nav puisqu'il donne des infos sur la page (liens vers fichiers externes, utilisation langage html, titre page).</li>
+                <li>tout ce qui s'affichera ds nav est inclus à l'int de la balise <strong>body</strong></li>
+                <li>quand un élément est placé au sein d'un autre (ou imbriqué) il est important d'<strong>indenter</strong> cet élément en le décalant vers la droite à l'aide de la tab pour conserver une structure bien organisée et lisible pour tout le monde.</li>
+                <li>Les balises en paires comportent une balise ouvrante et une balise fermante indiquant pour chacune deb et fi, élément corresp.</li>
+                <li>les balises auto-fermantes corresp à des éléments ponctuels ds une page html, pas besoin de fournir une info de fin (insérer une image ou lien par ex). Les plus courantes :
+                <code>
+                    &lt;br/><br>
+                    &lt;img/><br>
+                    &lt;meta/><br>
+                    &lt;input/><br>
+                    &lt;hr/><br>
+                    &lt;link/><br>
+                </code>
+                </li>
+            </ul>   
+        </li>
+
+        <li>Le<abbr> W3C</abbr> - validation du code
+            Le <strong>World wide web Consortium</strong>, abrégé par le sigle <strong>W3C</strong>, est un organisme de standardisation à but non lucratif, fondé en oct 1994 chargé de promouvoir lacompatibilité des technos du <u>World Wide Web</u> telles que <u>HTML5</u>, <u>HTML</u>, <u>CSS</u>, <u>PNG</u>, <u>SVG</u>... Le <u>W3C ou World wide web Consortium</u>, est un organisme international qui dvlp des <u>standards</u> pr le web afin que les gens puissent com efficacement à travers Internet, autour de formats ouverts garantissant une meilleure interpérabilité (càd meilleure compréhension systèmes hétérogènes à tracers données et langages standardisés).
+        </li>
+        
+    </ol>
+
+    <hr>
+    <!--ol>li*5>ul>li*3-->
+    <h2>Des listes non ordonnées imbriquées dans une liste ordonnée faites de 5 éléments de listes</h2>
+
+    <ol>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>
+
+
+
+
+</body>
+</html>
