@@ -1,0 +1,58 @@
+/*feuille de style pour le 2nd zoning*/
+body {
+    background: linear-gradient(to right, peachpuff, paleturquoise);
+    font-size: 25px;
+    color: white;
+}
+
+#contenu {
+    width: 80%;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+
+header {
+    background-color: thistle;
+    height: 100px;
+}
+
+nav {
+    background-color: rosybrown;
+    height: 50px;
+}
+
+section {
+    background-color: mistyrose;
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(131, 112, 131);
+    height: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.a, .b, .c, .d {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.a {
+    background-color: silver;
+}
+
+.b {
+    background-color: tan;
+}
+
+.c {
+    background-color: cadetblue;
+}
+
+.d {
+    background-color: steelblue;
+}

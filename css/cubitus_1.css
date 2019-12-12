@@ -1,0 +1,28 @@
+/*feuille de style pour le 2nd zoning*/
+
+body {
+    background-color: paleturquoise;
+    font-size: 25px;
+    color: white;
+}
+
+section {
+    height: 500px;
+}
+
+.clear {
+    clear: both;
+}
+
+.carre1, .carre2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.carre1 {
+    background-color: silver;   
+}
+.carre2 {
+    background-color: steelblue;
+}
