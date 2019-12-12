@@ -15,9 +15,13 @@ section {
 }
 
 .carre1, .carre2 {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     float: left;
+    border: 5px solid white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px;
 }
 
 .carre1 {

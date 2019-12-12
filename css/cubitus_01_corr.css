@@ -1,11 +1,29 @@
 /*style pour le cubitus 01*/
 body {
-    background-color: gainsboro;
+    background-color: gainsboro;    
 }
 
-.cubitus {
+.cubitus1, .cubitus2 {
     background-color: gold;
     width: 150px;
     height: 150px;
-    border: 2px solid goldenrod;
+    border: 5px solid white;
+
+    float: left;
+
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.cubitus1 {
+    background-color: goldenrod;
+}
+
+.cubitus2 {
+    background-color: darkorange;
 }
