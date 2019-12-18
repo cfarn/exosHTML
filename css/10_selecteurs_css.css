@@ -1,0 +1,40 @@
+/* feuille de style pour selecteurs css */
+body {
+    background-color: ivory;
+    opacity: 1;
+    
+}
+
+body:after {    
+    background-image: url(../img/chaton.jpg);
+    background-size: 120%;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-repeat:no-repeat; 
+    content: "image-fond";
+    z-index: -1;
+}
+
+h1 {
+    border: 2px solid rosybrown;
+    box-shadow: 10px 5px 5px grey;
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+    color: dimgray;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    
+    
+    
+}
+h2 {
+    color: darkgrey;
+}
+h4 {
+    color: slategray;
+}

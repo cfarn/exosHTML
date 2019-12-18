@@ -1,0 +1,56 @@
+/* feuille de style pour cubitus 2 */
+body {
+    background-color: ivory;
+    font-size: 15px;
+    color: black;
+}
+
+section {
+    height: 500px;
+}
+
+.clear {
+    clear: both;
+}
+
+.carre1, .carre2, .rouge, .carre3, .carre4 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.carre1 {
+    background-color: aquamarine;
+    border-radius: 100%;   
+}
+
+.carre2 {
+    background-color: lightsalmon;
+    border-radius: 25px 50px 25px 50px;
+}
+
+.carre3 {
+    background-color: green;
+    border-radius: 10px 20px 30px 45px;
+}
+
+.carre4 {
+    background-color: cyan;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.rouge {
+    background-color: red;
+    border-radius: 25px 50px 25px 50px;
+}
+
+.cache {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+
+}

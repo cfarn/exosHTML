@@ -6,10 +6,12 @@ body {
     margin: 10px auto;
     color: white;
 }
+
 #contenu {
     background-color: pink;
     border: 2px solid #000000;
 }
+
 header, footer {
     height: 120px;
     border: 1px solid olive;
@@ -17,11 +19,55 @@ header, footer {
     text-align: center;
     padding-top: 10px;
 }
+
+/*les styles pour la nav*/
 nav {
     height: 60px;
     background-color: lightsalmon;
     padding-left: 40px;
 }
+
+nav ul {
+    /*pour être certain de ne pas avoir de puces dans cette ul */
+    list-style-type: none;
+    background-color: lightyellow;
+}
+
+/*pour pointer les li qui sont dans la balise nav*/
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/*lien pas encore visité*/
+nav li a:link {
+    color: indigo;
+}
+
+/*lien au survol de la souris*/
+nav li a:hover {
+    color: orange;
+    background-color: white;
+}
+
+/*lien au clic de la souris, sélectionné*/
+nav li a:active {
+    background-color: royalblue;
+}
+
+/*lien visité*/
+nav li a:visited {
+    background-color: grey;
+}
+
+/*les styles pour la section*/
 section {
     border: 20px solid lightgrey;
     height: 400px;

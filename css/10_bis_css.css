@@ -1,0 +1,39 @@
+
+* {
+/* font-size: 300; */
+}
+body {
+    color:rgb(0, 0, 0);
+        background-color:white;
+        opacity: 1;
+        background-repeat:no-repeat; 
+   
+}
+body:after {
+        
+    background-image: url(../img/chaton.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-repeat:no-repeat; 
+    content: "image-fond";
+    z-index: -1;
+}
+h4 {
+    background-color:#b8b8d7;
+    margin-left: 40px;
+}
+h1 {
+    background-color: #F2720078;
+}
+h2 {
+    margin-left: 25px;
+}
+
+
+
+
+
