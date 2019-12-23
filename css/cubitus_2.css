@@ -24,7 +24,8 @@ section {
 
 .carre1 {
     background-color: aquamarine;
-    border-radius: 100%;   
+    border-radius: 100%; 
+    /*border-radius: 50%;*/
 }
 
 .carre2 {
@@ -47,10 +48,9 @@ section {
     border-radius: 25px 50px 25px 50px;
 }
 
-.cache {
+.empty {
     width: 100px;
     height: 100px;
     float: left;
     margin: 5px;
-
 }
