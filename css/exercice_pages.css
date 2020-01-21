@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro;
+    font-family: 'Playfair Display', serif;
+}
+
+#content {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 2px solid #0a4e79;
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: 'Muli', sans-serif;
+}
+
+h1 {   
+    font-size: 45px;
+    color: #2580b9;
+    text-align: center;
+}
+
+header {
+    background-color: #2c3e50;
+    height: 175px;
+}
+
+
+
+.fas {
+    color: #2580b9;
+}
+
+nav {
+    background-color: #2580b9;
+    height: 40px;
+    text-align: center;
+}
+
+nav a {
+    border-right: 2px solid whitesmoke;
+    padding: 3px;
+    font-size: 0.8em;
+    text-decoration: none;
+    line-height: 50px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 0 30px 0 30px;
+}
